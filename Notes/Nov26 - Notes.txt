@@ -1,0 +1,105 @@
+//Today Discussion:
+
+
+//Constructor Need  and this keyword
+
+//differents b/w primitive and non primitive data types 
+
+//Global and local variable
+
+//type for variable and object reference (exp -> int a , Market chair)
+
+// default value for global and local variable
+
+
+------------------------------------------------------------------
+
+1. Constructor – Need & This Keyword
+
+A constructor is used to initialize objects.
+
+It runs automatically when an object is created.
+
+Constructor name must match the class name.
+
+It does not have a return type.
+
+this keyword is used to refer to the current object.
+
+this is used to access current object's variables when local and global names are same.
+
+this() is used to call another constructor inside the same class.
+
+
+------------------------------------------------------------------
+2. Difference Between Primitive and Non-Primitive Data Types
+
+Primitive types store actual values directly (int, float, char, boolean).
+
+Non-primitive types store the memory address of the object (String, arrays, classes).
+
+Primitive types have fixed size.
+
+Non-primitive types have flexible size.
+
+Primitive types cannot be null (except using wrapper classes).
+
+Non-primitive types can be null.
+
+Primitive types are faster.
+
+Non-primitive types are slower compared to primitive.
+
+
+------------------------------------------------------------------
+3. Global and Local Variable
+
+Global variable is declared inside a class but outside all methods.
+
+Local variable is declared inside a method or block.
+
+Global variable belongs to the object.
+
+Local variable belongs only to the method.
+
+Global variable can be accessed by all methods.
+
+Local variable cannot be accessed outside the method.
+
+Global variables get default values.
+
+Local variables do not get default values.
+
+------------------------------------------------------------------
+
+4. Type for Variable and Object Reference
+
+A variable stores data directly (int a = 10).
+
+An object reference stores the address of the object (Market chair = new Market()).
+
+Variable type defines what kind of value it holds.
+
+Reference type defines which object it can point to.
+
+Primitive variable points to direct data.
+
+Reference variable points to objects in heap memory.
+
+------------------------------------------------------------------
+
+5. Default Value for Global and Local Variable
+
+Global variables automatically get default values.
+
+Local variables do not get default values.
+
+Global int → 0
+
+Global float → 0.0
+
+Global boolean → false
+
+Global object/reference → null
+
+Local variables must be initialized before use.

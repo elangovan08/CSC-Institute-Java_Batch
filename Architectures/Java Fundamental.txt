@@ -1,0 +1,112 @@
+
+					 FEATURES OF JAVA
+
+
+Simple – Easy to learn and understand
+
+Object-Oriented – Based on the concepts of objects and classes
+
+Secure – Provides a secure environment with features like bytecode verification and no explicit pointer usage
+
+Robust – Strong memory management and exception handling
+
+Architecture Neutral – Write once, run anywhere
+
+Portable – Platform-independent bytecode
+
+Interpreted – Bytecode is interpreted or compiled at runtime by JVM
+
+High Performance – Enabled by Just-In-Time (JIT) compiler
+
+Multithreaded – Supports concurrent execution of two or more threads
+
+Distributed – Facilitates distributed computing (e.g., with RMI and EJB)
+
+Dynamic – Supports dynamic loading of classes
+
+Automatic Memory Management – Handled by garbage collector
+
+
+					WHAT CAN WE BUILD USING JAVA?
+
+
+Desktop Applications – media players, editors
+
+Web Applications –  dynamic websites, web services
+
+Enterprise Applications – banking systems, ERP software
+
+Mobile Applications – Android apps
+
+Games – 2D/3D using libraries like LWJGL or LibGDX
+
+Embedded Systems – small devices with limited hardware
+
+Smart Cards – Java Card technology
+
+Robotics & IoT – Using Java ME or frameworks like LeJOS
+
+
+
+				 UNDERSTANDING THE JAVA ECOSYSTEM
+
+
+JVM (Java Virtual Machine) – Runs Java bytecode; platform-dependent but enables platform independence of code
+
+JRE (Java Runtime Environment) – Contains JVM + libraries for running Java applications
+
+JDK (Java Development Kit) – Contains JRE + development tools (javac, debugger, etc.)
+
+Relation:
+
+JDK = JRE + Development Tools
+JRE = JVM + Libraries
+JVM = JIT (JUST IN TIME)
+
+EXECUTION OF JAVA:
+
+
+
+             ┌─────────────────────┐
+             │     Source Code     │
+             │   (YourProgram.java)│
+             └────────┬────────────┘
+                      │
+                      ▼
+             ┌─────────────────────┐
+             │   Java Compiler     │
+             │     (javac)         │
+             └────────┬────────────┘
+                      │
+                      ▼
+             ┌─────────────────────┐
+             │     Bytecode        │
+             │   (YourProgram.class) 
+             └────────┬────────────┘
+                      │
+                      ▼
+         ┌──────────────────────────────┐
+         │ JVM (Java Virtual Machine)   │
+         │  ┌────────────────────────┐  │
+         │  │ Just-In-Time Compiler  │  │
+         │  │    (JIT Compiler)      │  │
+         │  └──────────┬─────────────┘  │
+         └─────────────┼────────────────┘
+                       ▼
+             ┌─────────────────────┐
+             │   Machine Code      │
+             │     (Binary 0/1)    │
+             └────────┬────────────┘
+                      │
+                      ▼
+             ┌─────────────────────┐
+             │  Operating System   │
+             └─────────────────────┘
+			
+		      │
+                      ▼
+             ┌─────────────────────┐
+             │Hardware Execution   │
+             └─────────────────────┘
+
+	     

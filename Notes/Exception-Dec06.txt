@@ -1,0 +1,115 @@
+Exception:
+
+//An abnormal event occurs during run time. this cause the program to stop immediately
+
+//Whenever exception occurs ,an object which is related to the exception will be thrown (by jvm )to the user. 
+
+-----------------------------------------------------------------
+
+//Checked Exception - Compile Time Exception
+		
+		//Checked Exception will be Handled at compileTime
+
+
+//UnChecked Exception  - Runtime Exception 
+				
+		//UnChecked Exception will be handled at Runtime
+
+
+
+//Try block should be accompanied with catch or finally block
+
+
+//catch block of Exception(Parent class for all Exception) must be placed in end of the all other catch block
+
+
+---------------------------------------------------------------------
+
+
+Checked Exception (Compile-Time Exception)
+
+These are the exceptions checked by the compiler.
+
+Java forces you to handle them using try/catch or declare using throws.
+
+If you don’t handle them → Compilation Error.
+
+Examples:
+
+IOException
+
+SQLException
+
+ClassNotFoundException
+
+---------------------------------------------------------------------
+
+Unchecked Exception (Runtime Exception)
+
+These exceptions occur during runtime.
+
+Compiler does not force you to handle them.
+
+They are subclasses of RuntimeException.
+
+Examples:
+
+ArithmeticException
+
+NullPointerException
+
+ArrayIndexOutOfBoundsException
+
+
+---------------------------------------------------------------------
+
+
+Rule: try block must be followed by catch or finally
+
+Valid:
+
+try { }
+catch(Exception e) { }
+
+
+Valid:
+
+try { }
+finally { }
+
+
+Valid:
+
+try { }
+catch(Exception e) { }
+finally { }
+
+
+Invalid:
+
+try { }   // No catch or finally → Compile-time error
+
+
+---------------------------------------------------------------------
+
+
+Rule: catch blocks should be ordered from specific → general
+
+Because Java checks catch blocks in order.
+
+
+Wrong (Parent placed before Child)
+try { }
+catch(Exception e) { }  
+catch(ArithmeticException e) { } // ERROR: unreachable
+
+
+Correct (Child first, Parent next)
+try { }
+catch(ArithmeticException e) { }  
+catch(Exception e) { }
+
+
+Reason:
+Exception is the parent class of all exceptions.
+If placed first, child catches become unreachable → Compile-time error.

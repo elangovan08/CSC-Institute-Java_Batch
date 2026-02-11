@@ -1,0 +1,68 @@
+
+Java Features:
+
+1. Java is Object Oriented Programming Language(OOP)
+
+Everything in Java revolves around Objects and Classes
+
+----------------------------------------------------
+
+Real world entities: (Object)
+----------------------------------------------------
+Charger → charging
+
+Laptop → has battery, processor (state), can start/stop (behavior)
+
+Remote → has buttons (state), can change channel/volume (behavior)
+
+---------------------------------------------------
+
+Class -Bank 
+
+Object - Employees					EmployeeOne.userDeposite();
+
+Method -Activities  (Block of statements) 
+
+Variable - user Details
+---------------------------------------------------
+
+Object: is a states and behavious 
+
+Has state (data/variables) & behavior (methods).
+
+Example:
+
+Laptop.state → brand, batteryLevel
+
+Laptop.behavior → turnOn(), charge()
+---------------------------------------------------
+
+Class: is bluePrint or Template
+
+A blueprint/template for objects.
+
+Example:
+
+Class → Bank
+
+Object → EmployeeOne, EmployeeTwo
+
+---------------------------------------------------
+
+Method
+
+A block of code (activity) that performs an operation.
+
+Example:
+
+EmployeeOne.depositMoney();
+
+---------------------------------------------------
+Variable:
+
+Stores data/attributes of an object.
+
+Example:
+
+String employeeName = "John";
+ 

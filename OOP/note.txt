@@ -1,0 +1,34 @@
+//Polymorphism  ---? manyForms
+
+//Polymorphism means performing the same action in different ways
+
+//It has two types: 
+
+//             --> method overriding(Runtime Polymorphism):
+							//same method name 
+							//same parameter 
+							//with different definition 
+							//happenings between parent and child classes
+							//Child class provides its own version of the method
+//Can we have same method name in parent and child class - yes we can do
+
+//for Different own definition --it's called method overriding   
+
+
+
+
+//             --> method overLoading(Compile-time Polymorphism):
+							//same method name with no.of arguments or different arguments
+							//Happening in same class
+
+
+
+//Abstract - Hiding unwanted details , Showing only necessary information
+
+//			If a class contains at least one abstract method, The whole class must be declared abstract.
+
+//			Have no body ,CAN be overridden in the child class
+
+//          Achieved using abstract classes and interfaces
+
+//abstract - is a keyword    --> Data Hiding 

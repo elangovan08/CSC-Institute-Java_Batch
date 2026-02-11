@@ -1,0 +1,196 @@
+Java Introduction
+Java is a high-level, object-oriented, platform-independent programming language used to develop secure and portable applications.
+
+-----------------------------------------------------------------------------------------------------------
+
+JDK, JRE, JVM
+JDK provides tools to develop Java programs.
+JRE provides the runtime environment to execute Java programs.
+JVM converts bytecode into machine code and enables platform independence.
+
+-----------------------------------------------------------------------------------------------------------
+
+Object-Oriented Programming (OOP)
+
+Class
+A class is a blueprint that defines properties and behaviors of objects.
+
+Object
+An object is a real-world entity created from a class that occupies memory.
+
+Inheritance
+Inheritance allows one class to acquire properties and methods of another class using extends.
+
+Encapsulation
+Encapsulation binds data and methods together and protects data using access modifiers.
+
+Polymorphism
+Polymorphism allows a method to behave differently based on the object, achieved using overloading and overriding.
+
+Abstraction
+Abstraction hides implementation details and shows only essential information using abstract classes and interfaces.
+
+Constructor
+A constructor is a special method used to initialize objects and is automatically invoked during object creation.
+
+-----------------------------------------------------------------------------------------------------------
+
+Package and Import
+Package is used to group related classes.
+Import allows access to classes from other packages.
+
+-----------------------------------------------------------------------------------------------------------
+
+Type Casting
+Type casting converts one data type into another.
+Implicit casting is automatic.
+Explicit casting is done manually.
+
+-----------------------------------------------------------------------------------------------------------
+
+Static Binding and Dynamic Binding
+Static binding happens at compile time (method overloading).
+Dynamic binding happens at runtime (method overriding).
+
+-----------------------------------------------------------------------------------------------------------
+
+Static Block and Instance Block
+Static block executes once when the class is loaded.
+Instance block executes every time an object is created.
+
+-----------------------------------------------------------------------------------------------------------
+
+Final Keyword
+Final variable value cannot be changed.
+Final method cannot be overridden.
+Final class cannot be inherited.
+
+-----------------------------------------------------------------------------------------------------------
+
+Getter and Setter
+Getter and setter methods provide controlled access to private variables and support data validation.
+
+-----------------------------------------------------------------------------------------------------------
+
+this() and super()
+this() refers to current class constructor or variables.
+super() refers to parent class constructor or methods.
+
+-----------------------------------------------------------------------------------------------------------
+
+Interface
+An interface defines abstract methods and supports multiple inheritance.
+
+SAM (Functional Interface)
+A SAM interface contains exactly one abstract method and is used with lambda expressions.
+
+Marker Interface
+A marker interface has no methods and is used to signal JVM or frameworks for special behavior.
+
+-----------------------------------------------------------------------------------------------------------
+
+Array
+An array stores multiple values of the same data type in contiguous memory locations.
+
+-----------------------------------------------------------------------------------------------------------
+
+String Area (String Handling)
+
+String
+String is immutable, meaning its value cannot be changed once created.
+
+StringBuffer
+StringBuffer is mutable and thread-safe.
+
+StringBuilder
+StringBuilder is mutable and faster but not thread-safe.
+
+StringTokenizer
+StringTokenizer is used to break a string into tokens based on a delimiter such as space or comma.
+
+-----------------------------------------------------------------------------------------------------------
+
+Java Memory Management
+Stack memory stores method calls and local variables.
+Heap memory stores objects and is managed by the garbage collector.
+
+-----------------------------------------------------------------------------------------------------------
+
+Control Flow Statements
+Control flow statements control the execution of program logic using conditions and loops.
+
+-----------------------------------------------------------------------------------------------------------
+
+Static and Non-Static Members
+Static members belong to the class.
+Non-static members belong to objects.
+
+-----------------------------------------------------------------------------------------------------------
+
+Data Types
+Primitive data types store simple values.
+Non-primitive data types store objects and references.
+
+-----------------------------------------------------------------------------------------------------------
+
+Functional Interface and Lambda Expression
+Lambda expressions provide a concise way to implement functional interfaces.
+
+-----------------------------------------------------------------------------------------------------------
+
+Anonymous Class and Scope
+Anonymous class is a class without a name used for one-time implementation and has limited scope.
+
+-----------------------------------------------------------------------------------------------------------
+
+Exception Handling
+Exception handling manages runtime errors using try, catch, finally, throw, and throws.
+
+-----------------------------------------------------------------------------------------------------------
+
+Multithreading
+Multithreading allows multiple threads to execute simultaneously for better performance.
+
+-----------------------------------------------------------------------------------------------------------
+
+Collection API
+Collection API provides dynamic data structures such as List, Set, and Map.
+
+-----------------------------------------------------------------------------------------------------------
+
+hashCode(), equals(), toString()
+equals() compares object content.
+hashCode() supports hashing-based collections.
+toString() returns object data in string format.
+
+-----------------------------------------------------------------------------------------------------------
+
+File Handling
+File handling allows reading and writing data to files using byte and character streams.
+
+-----------------------------------------------------------------------------------------------------------
+
+Stream API
+Stream API processes data from collections using functional-style operations.
+
+-----------------------------------------------------------------------------------------------------------
+
+Command Line Arguments
+Command line arguments allow passing values at runtime through the command prompt.
+
+-----------------------------------------------------------------------------------------------------------
+
+System.in, System.out, System.exit()
+System.in is used for input.
+System.out is used for output.
+System.exit() terminates the JVM.
+
+-----------------------------------------------------------------------------------------------------------
+
+Regular Expressions (REGEX)
+Regex is used for pattern matching and input validation.
+
+-----------------------------------------------------------------------------------------------------------
+
+JDBC
+JDBC connects Java applications to databases and performs CRUD operations.
